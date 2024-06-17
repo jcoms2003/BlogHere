@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  top: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+.contain-item {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 330px;
+  height: fit-content;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  justify-content: center;
+  box-shadow: 5px 5px;
+  margin-top: auto;
+}
+.contain-item:hover {
+  box-shadow: 10px 10px;
+}
+.img1 {
+  display: flex;
+  margin: 15px;
+  width: 300px;
+  justify-self: center;
+  align-self: center;
+  border-radius: 10px;
+}
+.learn {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 3px 5px;
+  margin: 0px 15px;
+  border-radius: 5px;
+}
+.publish {
+  margin: 15px;
+}
+.head3 {
+  margin: 5px 0px 20px 15px;
+}
+.head3:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.main {
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+  margin: 0 15px;
+}
+.img2 {
+  width: 50px;
+  display: flex;
+  align-self: flex-start;
+  margin: 10px;
+  padding: 5px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+p {
+  font-size: 15px;
+  line-height: 20px;
+}
